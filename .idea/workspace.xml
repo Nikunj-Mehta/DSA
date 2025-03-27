@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e824e86-d1f4-4763-ad46-eb3228ac036d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decode_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceSorting/KthSmallestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceSorting/inversionCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceSorting/mergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceSorting/mergeTwoSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceSorting/quickSortAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/bubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/bubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/builtInSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/checkIfArrayIsSortedOrNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/insertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/insertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/optimizedBubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/reverseBubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/selectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/selectionSortDifferentApproach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSorting/transformArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/bs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/lowerBound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/FriendsPairingProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Knapsack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstProgram/firstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstProgram/firstProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuesserGame/MyGuesserGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/AddSameInSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/BasicMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/BasicSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/MapIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/SetIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/TreeMapIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashSetsAndHashMaps/TreeSetIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/BasicHeapCF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/CustomComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/IsBTaMaxHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/KthSmallestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/MaxHeapArrayImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/MinCostToConnectRopes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/MinHeapArrayImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heaps/NearlySortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagement/Appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagement/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagement/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagementMain/HospitalManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/DoublyLinkedListImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/ListNodeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/ShallowCopyOfANode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/implementationLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/constructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/dataHiding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/encapsulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/encapsulation2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/instanceVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/interfaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/localVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/mehtodOverriding2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/methodOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/methodOverriding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/staticVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/typeCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPSinJava/StudentClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/ArrayImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/CircularQueueImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/DequeImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/Implementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/LinkedListImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/PrintQueueUsingFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/RemoveEleAtEvenIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/ReverseFirst_K_Elements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/ReverseQueueUsingStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/NthStair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/StringTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/arrayTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/binaryStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/fibonacciNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/generateParenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/hcf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/mazePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/nToOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/oneToN_after_recursive_call.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/oneTon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/pip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/powerLinear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/skipAChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/subsets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/sumParameterised.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/sumReturnType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/MaximumSumSubarraySizeK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/ArrayImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/InfixEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/InfixToPostfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/InfixToPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/LinkedListImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PostfixEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PostfixToInfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PostfixToPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PrefixEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PrefixToInfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PrefixToPostfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PreviousGreaterEle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/ReverseRecursively.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/EvenPositionToA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/StringCompression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/basicFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/convertIntToString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/maxValueInStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/plusOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/InorderSuccessor_PredecessorOfBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/NodeOfTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/ProductOfTreeNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/ShortestDistBetn2NodesInBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/Traversals.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2utvZBdO3UZbAi6bo4ZJRMtpIXv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/NIKUNJ MEHTA/Desktop/codes/DSA"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e824e86-d1f4-4763-ad46-eb3228ac036d" name="Changes" comment="" />
+      <created>1743080737402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743080737402</updated>
+    </task>
+    <servers />
+  </component>
+</project>

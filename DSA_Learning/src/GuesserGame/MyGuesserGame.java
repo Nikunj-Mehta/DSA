@@ -7,8 +7,16 @@ class Guesser{
     public int GuesserNumb()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Guesser Kindly guess a number: ");
-        GuesserNum = sc.nextInt();
+        System.out.print("Guesser Kindly guess a number between 1 to 100: ");
+        do
+        {
+            GuesserNum = sc.nextInt();
+            if(GuesserNum < 1 || GuesserNum > 100)
+            {
+                System.out.print("Guess an appropriate number between 1 and 100: ");
+            }
+        }while(GuesserNum < 1 || GuesserNum > 100);
+
         return GuesserNum;
     }
 }
@@ -18,7 +26,14 @@ class Player{
     public int PlayerNumb()
     {
         Scanner sc = new Scanner(System.in);
-        PlayerNum = sc.nextInt();
+        do
+        {
+            PlayerNum = sc.nextInt();
+            if(PlayerNum < 1 || PlayerNum > 100)
+            {
+                System.out.print("Guess an appropriate number between 1 and 100: ");
+            }
+        }while(PlayerNum < 1 || PlayerNum > 100);
         return PlayerNum;
     }
 }
@@ -70,13 +85,12 @@ class Umpire{
 
         else if(Guessernum == Playernum2)
         {
-            if(Guessernum == Playernum3)
-                System.out.println("Player2 and Player 3 WON the game...");
-            else
-                System.out.println("Player2 WON the game...");
+            if(Guessernum == Playernum3) System.out.println("Player2 and Player 3 WON the game...");
+            else System.out.println("Player2 WON the game...");
         }
 
-        else if(Guessernum == Playernum3){
+        else if(Guessernum == Playernum3)
+        {
             System.out.println("Player3 WON the game...");
         }
 

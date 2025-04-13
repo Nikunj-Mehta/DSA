@@ -7,29 +7,28 @@ public class PrintSpiral {
         int minr = 0, maxr = arr.length-1, minc = 0, maxc = arr[0].length-1;
 
         while(minr <= maxr && minc <= maxc) {
-            // blue
+            // left to right
             for(int j = minc; j <= maxc; j++) { // column
                 System.out.print(arr[minr][j] + " ");
             }
             System.out.print(" ");
             minr++;
-
-            // orange
-            for(int i = minr; i <=
-                    maxr; i++) { // row
+            if(minr > maxr) break; // needed because I am incrementing minr.
+            // top to bottom
+            for(int i = minr; i <= maxr; i++) { // row
                 System.out.print(arr[i][maxc] + " ");
             }
             System.out.print(" ");
             maxc--;
-
-            // red
+            if(minc > maxc) break;
+            // right to left
             for(int j = maxc; j >= minc; j--) {
                 System.out.print(arr[maxr][j] + " ");
             }
             System.out.print(" ");
             maxr--;
-
-            // Green
+            if(minr > maxr) break;
+            // bottom to top
             for(int i = maxr; i >= minr; i--) {
                 System.out.print(arr[i][minc] + " ");
             }

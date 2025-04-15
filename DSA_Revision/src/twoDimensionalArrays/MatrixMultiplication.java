@@ -14,7 +14,7 @@ public class MatrixMultiplication {
         int[][] b = {{1, 2, 1}, {2, 1, 2}, {3, 2, 2}, {1, 2, 2}}; // 4*3
 
         if(a[0].length != b.length) {
-            System.out.println("Multiplication not possible");
+            System.out.println("Multiplication not possible"); // valid only if we take input form user.
             return;
         }
         else {

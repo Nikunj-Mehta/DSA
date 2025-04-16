@@ -24,9 +24,10 @@ public class MatrixMultiplication {
                     for(int k = 0; k < b.length; k++) { // or a[0].length
                         ans[i][j] += a[i][k] * b[k][j];
                     }
-                    System.out.print(ans[i][j] + " ");
+                    System.out.print(ans[i][j] + " "); // Solving some problems on leetcode
                 }
                 System.out.println();
+
             }
         }
     }

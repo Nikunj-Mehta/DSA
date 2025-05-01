@@ -9,7 +9,7 @@ public class StarDiamond {
         int n = sc.nextInt();
 
         for(int i = 1; i <= 2*n-1; i++) {
-            if(i <= 4) { // for upper triangular pyramid
+            if(i <= n) { // for upper triangular pyramid
                 for(int j = 1; j <= n-i; j++) {
                     System.out.print("   ");
                 }

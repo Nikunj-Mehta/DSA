@@ -1,4 +1,4 @@
-package sorting.bubble_Sort;
+package sorting.bubble_sort;
 
 public class BubbleSort {
     public static void print(int[] arr) {

@@ -1,4 +1,4 @@
-package sorting.bubble_Sort;
+package sorting.bubble_sort;
 
 public class CheckArrayIsSortedOrNot {
     public static void main(String[] args) {

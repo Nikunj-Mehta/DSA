@@ -1,4 +1,4 @@
-package sorting.selection_Sort;
+package sorting.selection_sort;
 
 public class SelectionSort {
     public static void print(int[] arr) {

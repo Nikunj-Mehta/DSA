@@ -15,7 +15,7 @@ public class MostOccurringChar {
         int max = Integer.MIN_VALUE;
         int curr = 1;
         char maxChar = ' ';
-        int i = 0,  n = ch.length;
+        int i = 0, n = ch.length;
         while(i < n-1) {
             if(ch[i] == ch[i+1]){
                 curr++;

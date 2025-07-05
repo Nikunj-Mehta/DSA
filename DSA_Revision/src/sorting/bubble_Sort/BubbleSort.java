@@ -12,14 +12,18 @@ public class BubbleSort {
 
         print(arr);
 
-        for(int i = 0; i < arr.length - 1; i++) { // after 1st pass the greatest element goes at last
-            if(arr[i] > arr[i+1]) {
-                int temp = arr[i];
-                arr[i] = arr[i+1];
-                arr[i+1] = temp;
+        for(int j = 0; j < arr.length - 1; j++){
+            boolean flag = true;
+            for(int i = 0; i < arr.length - 1 - j; i++) { // after 1st pass the greatest element goes at last
+                if(arr[i] > arr[i+1]) {
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                    flag = false;
+                }
             }
+            if(flag) break;
         }
-
         print(arr);
     }
 }

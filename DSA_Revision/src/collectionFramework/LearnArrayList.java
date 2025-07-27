@@ -1,17 +1,21 @@
 package collectionFramework;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
-public class LernArrayList {
+public class LearnArrayList {
     public static void main(String[] args) {
         ArrayList <Integer> al = new ArrayList<>();
+//        List<Integer> list = new LinkedList<>(); // This way we can use linkedList all features are similar to arraylist.
         al.add(10);
         al.add(20);
         System.out.println(al.size());
         System.out.println(al);
         System.out.println(al.remove(1));
         System.out.println(al);
-        al.add(30);
+        al.add(30); // adds ele at end
         al.add(40);
         al.add(50);
         al.add(60);
@@ -24,9 +28,19 @@ public class LernArrayList {
         al.add(2, 20);
         System.out.println(al);
         System.out.println(al.removeFirst());
+        System.out.println(al.remove(Integer.valueOf(30))); // this way we can remove element using value
         System.out.println(al);
         System.out.println(al.reversed());
         System.out.println(al);
         al.forEach(a -> System.out.print(a + " ")); // This is the use of lambda expression
+        System.out.println();
+        System.out.println(al.get(4));
+        // We can create a new list and add all the elements of the list using
+        // al.addAll(newList);
+
+        Iterator<Integer> it = al.iterator();
+        while(it.hasNext()) {
+            System.out.print(it.next() + " ");
+        }
     }
 }

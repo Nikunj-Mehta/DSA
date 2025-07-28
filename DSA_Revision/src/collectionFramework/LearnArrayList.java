@@ -7,8 +7,8 @@ import java.util.List;
 
 public class LearnArrayList {
     public static void main(String[] args) {
-        ArrayList <Integer> al = new ArrayList<>();
-//        List<Integer> list = new LinkedList<>(); // This way we can use linkedList all features are similar to arraylist.
+//        ArrayList <Integer> al = new ArrayList<>();
+        List<Integer> al = new LinkedList<>(); // This way we can use linkedList all features are similar to arraylist.
         al.add(10);
         al.add(20);
         System.out.println(al.size());

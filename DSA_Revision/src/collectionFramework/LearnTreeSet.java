@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class LearnTreeSet {
     public static void main(String[] args) {
-        Set<Integer> set = new TreeSet<>();
+        Set<Integer> set = new TreeSet<>(); // Same as hash set just all elements will be in sorted order
 
         set.add(10);
         set.add(3);

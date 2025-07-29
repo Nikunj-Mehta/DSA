@@ -11,5 +11,9 @@ public class LearnArraysClass {
         }
         int index = Arrays.binarySearch(numbers, 56); // Works only on sorted array.
         System.out.println("The index of element 56 is: " + index);
+        Arrays.fill(numbers, 20); // all elements of array numbers will be filled by 20.
+        for(int ele: numbers) {
+            System.out.print(ele + " ");
+        }
     }
 }

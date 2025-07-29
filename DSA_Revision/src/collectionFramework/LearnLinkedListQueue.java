@@ -20,6 +20,6 @@ public class LearnLinkedListQueue {
         queue.add(12);
         System.out.println(queue);
         System.out.println(queue.size());
-        System.out.println(queue.element());
+        System.out.println(queue.element()); // same as peek.
     }
 }

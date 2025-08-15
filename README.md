@@ -74,8 +74,7 @@ DSA/
 
 ## 👨‍💻 Author
 
-**Nikunj Mehta**  
-Built and maintained with dedication.  
+Built and maintained with dedication by **[Nikunj Mehta](https://github.com/Nikunj-Mehta)**.  
 Always open to feedback, suggestions, and collaboration! 🚀
 
 ---

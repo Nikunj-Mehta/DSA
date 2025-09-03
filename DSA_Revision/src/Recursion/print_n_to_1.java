@@ -3,11 +3,22 @@ package Recursion;
 import java.util.Scanner;
 
 public class print_n_to_1 {
-    public static void print(int n) {
+    public static void printDecreasing(int n) {
         if(n == 0) return;
-
-        print(n-1);
         System.out.print(n + " ");
+        printDecreasing(n-1);
+    }
+
+    public static void printIncreasing(int n) {
+        if(n == 0) return;
+        printIncreasing(n-1);
+        System.out.print(n + " ");
+    }
+
+    public static void printInc(int x, int n) { // Extra parameter
+        if(x > n) return;
+        System.out.print(x + " ");
+        printInc(x+1, n);
     }
 
     public static void main(String[] args) {
@@ -15,6 +26,10 @@ public class print_n_to_1 {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
-        print(n);
+        printDecreasing(n);
+        System.out.println();
+        printIncreasing(n);
+        System.out.println();
+        printInc(1, n);
     }
 }

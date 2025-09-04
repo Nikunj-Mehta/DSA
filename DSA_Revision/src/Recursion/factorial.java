@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class factorial {
     public static int fact(int n) {
-        if(n == 1) return 1; // Base Case.
+        if(n == 1 || n == 0) return 1; // Base Case.
         int ans = n * fact(n-1);
         return ans;
     }

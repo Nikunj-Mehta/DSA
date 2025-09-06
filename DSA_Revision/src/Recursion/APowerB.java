@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class a_power_b {
+public class APowerB {
     public static int power(int a,  int b) {
         if(a == 1 || a == 0) return a;
         if(b == 0) return 1;

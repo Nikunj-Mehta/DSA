@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class sum_1_to_n {
+public class Sum1ToN {
     public static int sumUsingParameter(int x, int n, int sum){
         if(x > n) return sum;
         return sumUsingParameter(x+1, n, sum + x);

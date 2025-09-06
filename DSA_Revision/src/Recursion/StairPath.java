@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class stair_path {
+public class StairPath {
 //    public static int stair(int n, int ans) {
 //        if(n == 0 || n-1 == 0) return ans+1;
 //        return stair(n-1, ans) + stair(n-2, ans);

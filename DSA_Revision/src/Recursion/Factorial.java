@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
     public static int fact(int n) {
         if(n == 1 || n == 0) return 1; // Base Case.
         int ans = n * fact(n-1);
@@ -14,12 +14,12 @@ public class factorial {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
 
-//        int factorial = 1;
+//        int Factorial = 1;
 //        for(int i = 1; i <= n; i++) {
-//            factorial *= i;
+//            Factorial *= i;
 //        }
 
         int factorial = fact(n);
-        System.out.println("The factorial of " + n + " is: " + factorial);
+        System.out.println("The Factorial of " + n + " is: " + factorial);
     }
 }

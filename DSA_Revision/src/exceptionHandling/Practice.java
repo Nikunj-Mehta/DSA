@@ -2,7 +2,7 @@ package exceptionHandling;
 
 import java.util.Scanner;
 
-public class practice {
+public class Practice {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30};
 

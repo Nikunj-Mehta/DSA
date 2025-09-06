@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class maze_path {
+public class MazePath {
     public static int maze(int startx, int starty, int endx, int endy) {
         if(startx == endx || starty == endy) return 1;
 //        if(startx == endx && starty == endy) return 1; // In this case the bottom code will be required

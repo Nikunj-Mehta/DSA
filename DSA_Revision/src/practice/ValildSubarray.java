@@ -12,7 +12,7 @@ public class ValildSubarray {
             System.out.print("Enter the elements of array: ");
             arr[i] = sc.nextInt();
         }
-        int i = 0;
+        int i = 0; // To create a window of size 3
         int j = i + 2;
         int total = 0;
         while(j < arr.length) {

@@ -1,7 +1,6 @@
 package practice;
 
 import java.util.Scanner;
-import java.time.LocalDate;
 
 public class MinHopValue {
     public static void main(String[] args) {

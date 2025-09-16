@@ -11,6 +11,8 @@ public class DateAndTime {
         System.out.println(today);
 
         LocalTime time = LocalTime.now();
+        LocalTime now = time.plusHours(2).plusMinutes(30).plusSeconds(31);
         System.out.println(time);
+        System.out.println(now);
     }
 }

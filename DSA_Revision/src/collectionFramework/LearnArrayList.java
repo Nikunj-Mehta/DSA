@@ -37,6 +37,10 @@ public class LearnArrayList {
         System.out.println(al.get(4));
         // We can create a new list and add all the elements of the list using
         // al.addAll(newList);
+        System.out.println(al.contains(70));
+        System.out.println(al.contains(100));
+        System.out.println(al.get(3));
+        System.out.println(al.set(3, 25));
 
         Iterator<Integer> it = al.iterator();
         while(it.hasNext()) {

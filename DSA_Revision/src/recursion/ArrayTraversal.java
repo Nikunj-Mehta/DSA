@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class ArrayTraversal {
     public static void printArray(int[] arr, int idx) {

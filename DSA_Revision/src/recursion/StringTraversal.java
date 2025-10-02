@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class StringTraversal {
     public static void printString(String str, int i) {

@@ -4,10 +4,15 @@ import java.util.Scanner;
 
 public class Permutations {
     public static void permutation(String ans, String str) {
+        if(str.isEmpty()) { // str.length() == 0 will also work.
+            System.out.println(ans);
+            return;
+        }
         for(int i = 0; i < str.length(); i++) {
-            String leftPart = str.substring();
-            String rightPart = ;
-
+            char ch = str.charAt(i);
+            String leftPart = str.substring(0,i); // will give substring from 0 to i-1
+            String rightPart = str.substring(i+1) ; // from i+1 to end
+            permutation(ans+ch, leftPart+rightPart);
         }
     }
     public static void main(String[] args) {

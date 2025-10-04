@@ -10,7 +10,7 @@ public class Permutations {
         }
         for(int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            String leftPart = str.substring(0,i); // will give substring from 0 to i-1
+            String leftPart = str.substring(0,i); // will give substring from 0 to i-1 .substring takes 1 element less that last index.
             String rightPart = str.substring(i+1) ; // from i+1 to end
             permutation(ans+ch, leftPart+rightPart);
         }

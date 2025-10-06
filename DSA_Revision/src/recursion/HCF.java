@@ -2,7 +2,7 @@ package recursion;
 
 import java.util.Scanner;
 
-public class HCFIterative {
+public class HCF {
     // Iterative
     public static int hcf(int a, int b) {
         int hcf = 1;

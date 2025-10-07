@@ -9,9 +9,11 @@ public class Substrings {
         System.out.print("Enter the string: ");
         String str = sc.nextLine();
         StringBuilder sb = new StringBuilder("hello");
-        char[] ch = sb.toString().toCharArray();
-        Arrays.sort(ch);
-        System.out.println(ch);
+//        char[] ch = sb.toString().toCharArray();
+//        Arrays.sort(ch);
+        sb.append('s');
+
+        System.out.println(sb);
 
         for(int i = 0; i < str.length(); i++) {
             for(int j = i+1; j <= str.length(); j++) {

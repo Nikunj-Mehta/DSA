@@ -28,6 +28,7 @@ public class LearnArrayList {
         al.add(2, 20);
         System.out.println(al);
         System.out.println(al.removeFirst());
+        System.out.println(al.removeLast());
         System.out.println(al.remove(Integer.valueOf(30))); // this way we can remove element using value
         System.out.println(al);
         System.out.println(al.reversed());

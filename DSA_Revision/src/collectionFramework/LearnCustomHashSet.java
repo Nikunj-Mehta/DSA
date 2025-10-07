@@ -11,7 +11,7 @@ public class LearnCustomHashSet {
         studentSet.add(new Student("rahul", 12));
         studentSet.add(new Student("Anuj", 23)); // as we are doing new Student so these two will be considered 2 new objects
         studentSet.add(new Student("Anuj", 24)); // and set will not be able to identify that they are same even though their values are same still the object is different.
-
+        studentSet.add(new Student("Anuj", 24)); // Set will ignore it.
         Student s1 = new Student("Ketan", 1);
         Student s2 = new Student("Rahil", 2);
 

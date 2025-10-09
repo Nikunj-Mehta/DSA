@@ -16,7 +16,6 @@ public class StringCompression {
                 }
                 count = 0;
                 i = j;
-                j = i;
             }
             for(int k = 0; k < sb.length(); k++) {
                 arr[k] = sb.charAt(k); // compressed the original array

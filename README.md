@@ -78,4 +78,3 @@ Built and maintained with dedication by **[Nikunj Mehta](https://github.com/Niku
 Always open to feedback, suggestions, and collaboration! 🚀
 
 ---
-```

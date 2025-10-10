@@ -3,6 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class LongestPalindromeLessOpt {
+    // Tried to create an optimised approach for this so that there is no need to check same string no of times.
     public static boolean isPalindrome(StringBuilder sb) {
         int i = 0;
         int j = sb.length() - 1;

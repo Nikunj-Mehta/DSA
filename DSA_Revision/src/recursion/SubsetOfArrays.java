@@ -8,8 +8,8 @@ public class SubsetOfArrays {
             System.out.println(str);
             return;
         }
-        subset(arr, str, i+1);
-        str += arr[i];
+        subset(arr, str, i+1); // don't take
+        str += arr[i]; // take
         subset(arr, str, i+1);
     }
     public static void main(String[] args) {

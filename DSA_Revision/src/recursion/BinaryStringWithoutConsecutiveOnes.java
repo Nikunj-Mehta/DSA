@@ -8,7 +8,7 @@ public class BinaryStringWithoutConsecutiveOnes {
             System.out.println(ans);
             return;
         }
-        if(ans.length() > 0 && ans.charAt(ans.length()-1) == '1') printStringWithoutConsecutiveOnes(n, ans+0);
+        if(!ans.isEmpty() && ans.charAt(ans.length()-1) == '1') printStringWithoutConsecutiveOnes(n, ans+0);
         else {
             printStringWithoutConsecutiveOnes(n, ans+1);
             printStringWithoutConsecutiveOnes(n, ans+0);

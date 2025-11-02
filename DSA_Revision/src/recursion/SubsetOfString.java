@@ -11,8 +11,8 @@ public class SubsetOfString {
         }
 //        subset(str, ans, i+1, al); // don't take current char
 //        subset(str, ans+str.charAt(i), i+1, al); // take current char
-        subset(str, ans, i+1, al);
-        ans += str.charAt(i);
+        subset(str, ans, i+1, al); // don't take current char
+        ans += str.charAt(i); // take current char
         subset(str, ans, i+1, al);
     }
     public static void main(String[] args) {

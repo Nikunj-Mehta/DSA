@@ -10,12 +10,13 @@ public class StairPath {
 
     // The code is same as fibonacci (fibonacci series with first index as fibo(11) == stair(10) = 89
     public static int stair(int n) {
-        if(n <= 2) return n; // if n == 1 only 1 way if n == 2 2 ways 1,1 or 2s teps.
+        if(n <= 2) return n; // if n == 1 only 1 way if n == 2, 2 ways 1,1 or direct 2 steps.
         return stair(n-1) + stair(n - 2);
     }
 
     public static int stair2(int n) {
-        if(n == 0 || n-1 == 0 || n-2 == 0) return 1;
+//        if(n == 0 || n-1 == 0 || n-2 == 0) return 1;
+        if(n <= 2) return 1; // replacement of line above but the above line is kept to understand why it is done.
         if(n-3 == 0) return 2; // Two ways to reach the ground
 //        Easy test cases.
 //        if (n == 0) return 1;   // reached ground

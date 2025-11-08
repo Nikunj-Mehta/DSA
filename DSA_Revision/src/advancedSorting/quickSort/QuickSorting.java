@@ -23,7 +23,7 @@ public class QuickSorting {
         }
         int pivotIdx = lo + smallerCount; // Why because in every call position of pivot will change so we will get the smaller elements from the lo.
         // keep the pivot on it's correct position
-        swap(arr, lo, pivotIdx);
+        swap(arr, lo, pivotIdx); // Now the pivot element is on it's correct position.
 
         // use two pointer and put all the elements smaller than pivot to left and elements greater than pivot to right of pivotIdx.
         int i = lo;

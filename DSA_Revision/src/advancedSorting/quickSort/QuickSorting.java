@@ -38,7 +38,7 @@ public class QuickSorting {
             }
         }
 
-        // use quick sort on the two parts
+        // use quick sort on the two parts and give recursive calls
         quickSort(arr, lo, pivotIdx);
         quickSort(arr, pivotIdx+1, hi);
     }

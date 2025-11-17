@@ -17,15 +17,18 @@ public class QuickSorting {
     public static void quickSort(int[] arr, int lo, int hi) {
         if (hi - lo <= 1) return;  // 0 or 1 element → already sorted
         // Find the pivot
-        int pivot = arr[lo];
+//        int pivot = arr[lo];
+        int mid = (lo + hi) / 2;
+        int pivot = arr[mid]; // Now instead of taking arr[lo] as pivot we prefer taking arr[mid] because it works way better in worst case when array is already sorted and in common cases both of them works almost same.
         int smallerCount = 0;
         // Find all the elements smaller than pivot.
         for(int i = lo; i < hi; i++) {
-            if(arr[i] < pivot) smallerCount++;
+            if(i == mid) continue;
+            if(arr[i] <= pivot) smallerCount++; // we used <= to make it a stable sort
         }
         int pivotIdx = lo + smallerCount; // Why because in every call position of pivot will change, so we will get the smaller elements from the lo.
-        // keep the pivot on it's correct position
-        swap(arr, lo, pivotIdx); // Now the pivot element is on it's correct position.
+        // keep the pivot on it's correct position, pivotIdx is the pivot's correct position.
+        swap(arr, mid, pivotIdx); // Now the pivot element is on it's correct position.
 
         // use two pointer and put all the elements smaller than pivot to left and elements greater than pivot to right of pivotIdx.
         int i = lo;

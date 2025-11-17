@@ -7,11 +7,13 @@ public class QuickSorting {
         }
         System.out.println();
     }
+
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
     public static void quickSort(int[] arr, int lo, int hi) {
         if (hi - lo <= 1) return;  // 0 or 1 element → already sorted
         // Find the pivot
@@ -21,7 +23,7 @@ public class QuickSorting {
         for(int i = lo; i < hi; i++) {
             if(arr[i] < pivot) smallerCount++;
         }
-        int pivotIdx = lo + smallerCount; // Why because in every call position of pivot will change so we will get the smaller elements from the lo.
+        int pivotIdx = lo + smallerCount; // Why because in every call position of pivot will change, so we will get the smaller elements from the lo.
         // keep the pivot on it's correct position
         swap(arr, lo, pivotIdx); // Now the pivot element is on it's correct position.
 

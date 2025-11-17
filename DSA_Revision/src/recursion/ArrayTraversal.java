@@ -21,6 +21,7 @@ public class ArrayTraversal {
 
         // Recursive Approach
         printArray(arr, 0);
+        System.out.println();
         printReverseArray(arr, 0);
     }
 }

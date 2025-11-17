@@ -11,7 +11,7 @@ public class APowerB {
             return ans * ans;
         }
         int ans = power(a, (b-1)/2);
-        return ans * ans * a;
+        return ans * ans * a; // If power is 1 then b == 0 then from second line 1 will be returned in ans 1*1*a and then the base will be multiplied.
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

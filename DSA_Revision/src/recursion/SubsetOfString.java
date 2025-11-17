@@ -7,7 +7,7 @@ public class SubsetOfString {
     public static void subset(String str, String ans, int i, ArrayList al) {
         if(i == str.length()) {
             al.add(ans);
-            return; // this return anything doesn't matters
+            return; // To avoid re-execution of code.
         }
 //        subset(str, ans, i+1, al); // don't take current char
 //        subset(str, ans+str.charAt(i), i+1, al); // take current char

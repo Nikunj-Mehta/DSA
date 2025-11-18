@@ -15,7 +15,7 @@ public class QuickSorting {
     }
 
     public static void quickSort(int[] arr, int lo, int hi) {
-        if (hi - lo <= 1) return;  // 0 or 1 element → already sorted
+        if (lo >= hi) return;  // 0 or 1 element → already sorted
         // Find the pivot
 //        int pivot = arr[lo];
         int mid = (lo + hi) / 2;
@@ -30,16 +30,14 @@ public class QuickSorting {
         // keep the pivot on it's correct position, pivotIdx is the pivot's correct position.
         swap(arr, mid, pivotIdx); // Now the pivot element is on it's correct position.
 
-        // use two pointer and put all the elements smaller than pivot to left and elements greater than pivot to right of pivotIdx.
+        // use two pointer and put all the elements smaller than or equal to pivot to left and elements greater than pivot to right of pivotIdx.
         int i = lo;
         int j = hi-1;
         while(i < pivotIdx && j > pivotIdx) {
-            if(arr[i] < pivot) i++;
-            if(arr[j] > pivot) j--;
-            if(arr[i] > pivot && arr[j] < pivot) {
+            if(arr[i] <= pivot) i++;
+            else if(arr[j] > pivot) j--;
+            else if(arr[i] > pivot && arr[j] <= pivot) {
                 swap(arr, i, j);
-                i++;
-                j--;
             }
         }
 

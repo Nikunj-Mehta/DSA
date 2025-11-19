@@ -24,7 +24,7 @@ public class QuickSorting {
         // Find all the elements smaller than pivot.
         for(int i = lo; i < hi; i++) {
             if(i == mid) continue;
-            if(arr[i] <= pivot) smallerCount++; // we used <= to make it a stable sort
+            if(arr[i] <= pivot) smallerCount++; // Quick Sort is an UnStable sorting.
         }
         int pivotIdx = lo + smallerCount; // Why because in every call position of pivot will change, so we will get the smaller elements from the lo.
         // keep the pivot on it's correct position, pivotIdx is the pivot's correct position.

@@ -40,7 +40,6 @@ public class KthSmallestEle {
 
         if(pivotIdx+1 == k) {
             System.out.print(k+"th smallest element is: " + arr[pivotIdx]); // 5th smallest element in sorted array will be arr[4] as array is 0 indexed.
-            return;
         }
         else if(k < pivotIdx+1) quickSort(arr, lo, pivotIdx, k); // The element we need lies in left half
         else quickSort(arr, pivotIdx+1, hi, k); // That is the element we want lies in the right half

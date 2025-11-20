@@ -17,10 +17,10 @@ public class CyclicSort {
         int[] arr = {2, 6, 8, 0, 4, 7, 1, 5, 3};
         print(arr);
         int i = 0;
-        while(i < arr.length) { // This sorting technique is used only when we have n size array and all elements are also from 0 to n-1 or 1 to n.
+        while(i < arr.length) { // This sorting technique is used only when we have n size array and all elements are also from 0 to n-1 or 1 to n
             if(arr[i] == i) i++; // if elements are from 1 to n-1 then arr[i] == i+1 so arr[0] == 1
             else {
-                swap(arr, i, arr[i]);
+                swap(arr, i, arr[i]); // Repeat the swapping until the correct is on it's correct index. eg repeat swapping until 1 is at index 1 or arr[1] = 1;
             }
         }
         print(arr);

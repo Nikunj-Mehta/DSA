@@ -41,5 +41,10 @@ public class PrintParanthesis {
         int n = sc.nextInt();
         ArrayList<String> ans = new ArrayList<>();
         printValidParanthesis(n, 0, 0, "", ans);
+
+        for(int i = 0; i < ans.size(); i++) {
+            System.out.print(ans.get(i) + " ");
+        }
+        System.out.println();
     }
 }

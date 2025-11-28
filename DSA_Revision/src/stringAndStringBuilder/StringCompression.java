@@ -28,6 +28,6 @@ public class StringCompression {
     public static void main(String[] args) {
         char[] arr = {'a', 'b', 'b', 'b', 'c', 'd', 'e', 'e', 'e', 'e', 'e'} ;
         int ans = compress(arr);
-        System.out.println(ans);
+        System.out.println("Length of string after compression: " + ans);
     }
 }

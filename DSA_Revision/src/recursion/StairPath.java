@@ -16,12 +16,10 @@ public class StairPath {
 
     // One jump of 3 or single jumps.
     public static int stair2(int n) {
-//        if(n == 0 || n-1 == 0 || n-2 == 0) return 1;
+//      if(n == 0 || n-1 == 0 || n-2 == 0) return 1;
         if(n < 3 ) return 1; // replacement of line above but the above line is kept to understand why it is done.
         if(n == 3) return 2; // Two ways to reach the ground
-//        Easy test cases.
-//        if (n == 0) return 1;   // reached ground
-//        if (n < 0) return 0;    // invalid path
+
         return stair2(n-1) + stair2(n-3);
     }
     public static void main(String[] args) {

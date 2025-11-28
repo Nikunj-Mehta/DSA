@@ -20,7 +20,7 @@ public class SubsetOfString {
         System.out.print("Enter the string: ");
         String str = sc.nextLine();
         ArrayList<String> al = new ArrayList<>();
-        subset(str, "", 0, al);
+        subset(str, "", 0, al); // Time Complexity = O(2ⁿ) where n = str.length();
         System.out.println(al);
     }
 }

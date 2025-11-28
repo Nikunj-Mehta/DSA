@@ -24,7 +24,7 @@ public class PascalsTriangle {
 
         int[][] arr = new int[n][];
         for(int i = 0; i < arr.length; i++) {
-            arr[i] = new int[i+1];
+            arr[i] = new int[i+1]; // Created an array of i+1 size;
             arr[i][0] = arr[i][i] = 1; // first and last element intitalized by 1;
 
             for(int j = 1; j < i; j++) {

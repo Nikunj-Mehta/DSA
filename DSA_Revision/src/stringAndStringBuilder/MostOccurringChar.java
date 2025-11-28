@@ -17,14 +17,12 @@ public class MostOccurringChar {
         char maxChar = ' ';
         int i = 0, n = ch.length;
         while(i < n-1) {
-            if(ch[i] == ch[i+1]){
-                curr++;
+            if(ch[i] == ch[i+1]) curr++;
+            else {
                 if(max <= curr) {
                     max = curr;
                     maxChar = ch[i];
                 }
-            }
-            else {
                 curr = 1;
             }
             i++;

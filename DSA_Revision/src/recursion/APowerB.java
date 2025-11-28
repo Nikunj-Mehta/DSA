@@ -1,6 +1,7 @@
 package recursion;
 
 import java.util.Scanner;
+//import recursion.Sum1ToN; No need to import form same package.
 
 public class APowerB {
     public static int power(int a,  int b) {
@@ -20,7 +21,10 @@ public class APowerB {
         System.out.print("Enter the power: ");
         int b = sc.nextInt();
 
-        int ans = power(a, b);
+        int ans = power(a, b); // TC = O(log b)
         System.out.println("The value of " + a + " to the power " + b + " is " + ans);
+
+        int addition = Sum1ToN.sumUsingParameter(1, 5, 0); // Just Importing and seeing whether it works or not // Calling static method without object creation.
+        System.out.println(addition);
     }
 }

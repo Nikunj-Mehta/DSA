@@ -30,5 +30,7 @@ public class Basics {
         arr.remove(1); // takes the index of element to remove, shifts all the rest elements to left, no empty space in betn(index 1).
         System.out.println("ArrayList after removing an element: " + arr.size());
         System.out.println(arr);
+        arr.addFirst(21);
+        System.out.println(arr);
     }
 }

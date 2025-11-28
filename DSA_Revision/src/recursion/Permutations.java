@@ -20,6 +20,6 @@ public class Permutations {
         System.out.print("Enter the string: ");
         String str = sc.nextLine();
 
-        permutation("", str);
+        permutation("", str); // TC = O(n!) much greater than O(2ⁿ).
     }
 }

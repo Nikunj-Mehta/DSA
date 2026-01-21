@@ -17,7 +17,7 @@ public class QuickSorting {
     public static void quickSort(int[] arr, int lo, int hi) {
         if (lo >= hi) return;  // 0 or 1 element → already sorted
         // Find the pivot
-//        int pivot = arr[lo];
+        // int pivot = arr[lo];
         int mid = (lo + hi) / 2;
         int pivot = arr[mid]; // Now instead of taking arr[lo] as pivot we prefer taking arr[mid] because it works way better in worst case when array is already sorted and in common cases both of them works almost same.
         int smallerCount = 0;

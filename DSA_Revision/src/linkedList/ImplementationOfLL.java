@@ -181,9 +181,9 @@ public class ImplementationOfLL {
         list.display();
         list.size();
 
-        System.out.println(list.tail.value);
+//        System.out.println(list.tail.value);
         list.deleteAtIndex(11);
-        System.out.println(list.tail.value);
+//        System.out.println(list.tail.value); // As tail is private to use it make tail public
         list.display();
         list.size();
 

@@ -19,5 +19,13 @@ class Main {
         for(int k = 0; k < ans.size(); k++) {
             System.out.print(ans.get(k) + " ");
         }
+
+        String str = "Hello9e";
+        for(char ch : str.toCharArray()) {
+            if(Character.isAlphabetic(ch)) System.out.println("Yes it's alphabet");
+            if(Character.isUpperCase(ch)) System.out.println("Yes it's upper case");
+            if(Character.isLowerCase(ch)) System.out.println("Lowercase");
+            if(Character.isDigit(ch) ) System.out.println("is digit" + (ch - '0' + 2));
+        }
     }
 }

@@ -18,5 +18,10 @@ public class Reverse {
         }
         System.out.println(sb);
         System.out.println(sb.reverse());
+
+        StringBuilder str = new StringBuilder("Nikunj");
+        System.out.println(str);
+        String st = new String(str);
+        System.out.println(st);
     }
 }

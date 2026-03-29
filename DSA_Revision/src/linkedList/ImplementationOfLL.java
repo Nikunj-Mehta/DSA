@@ -77,10 +77,9 @@ class SLL { // User defined Data Structure
         size++;
     }
 
-    public void getElement(int idx) {
+    public void getElement(int idx) throws Error {
         if(idx >= size || idx < 0){
-            System.out.println("Error: Invalid index");
-            return;
+            throw new Error("Error: Invalid index");
         }
         if(idx == size - 1) {
             System.out.println(tail.value);

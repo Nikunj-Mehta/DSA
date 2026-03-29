@@ -11,7 +11,7 @@ public class CheckArrayIsSortedOrNot {
                 break;
             }
         }
-        if(flag == true) System.out.println("Array is sorted");
+        if(flag) System.out.println("Array is sorted");
         else System.out.println("Array is not sorted");
 
     }

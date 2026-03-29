@@ -13,7 +13,7 @@ public class MaxValue2 {
             arr[i] = sc.next();
         }
 
-        String max = arr[0]; // for string length
+        String max = ""; // for string length
         for(int i = 0; i < arr.length; i++) {
             String curr = arr[i];
             if(curr.startsWith("0")) {

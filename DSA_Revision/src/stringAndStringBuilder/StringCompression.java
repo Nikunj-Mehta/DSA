@@ -29,5 +29,6 @@ public class StringCompression {
         char[] arr = {'a', 'b', 'b', 'b', 'c', 'd', 'e', 'e', 'e', 'e', 'e'} ;
         int ans = compress(arr);
         System.out.println("Length of string after compression: " + ans);
+//        System.out.println(arr);
     }
 }
